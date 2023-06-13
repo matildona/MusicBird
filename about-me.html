@@ -17,10 +17,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
+    <meta name="author" content="" />
     <meta name="generator" content="Hugo 0.84.0" />
     <title>MusicBird - About Me</title>
     <link rel="icon" type="image/x-icon" href="./img/white-logo.png" />
@@ -45,6 +42,7 @@
           font-size: 3.5rem;
         }
       }
+      @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
     </style>
 
     <!-- Custom styles for this template -->
@@ -54,15 +52,20 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="./img/white-logo.png" style="width: 56px"
+          <a class="navbar-brand navbar-toggler" href="index.html"
+            ><img src="img/white-logo.png" style="width: 56px"
           /></a>
 
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-          </ul>
+          <a class="navbar-brand collapse navbar-collapse" href="index.html"
+            ><img src="img/home-logo.png" style="height: 40px"
+          /></a>
+          <div class="navbar-menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -73,7 +76,12 @@
           <div class="col-lg-12">
             <article>
               <header class="mb-4">
-                <h2 class="fw-bolder mb-1">Mi presento</h2>
+                <h2
+                  class="fw-bolder mb-1"
+                  style="font-family: 'Abhaya Libre', serif !important"
+                >
+                  Mi presento!
+                </h2>
               </header>
               <div class="logo-container my-5">
                 <img
@@ -81,21 +89,21 @@
                   style="max-width: 90%; height: auto; position: center"
                 />
               </div>
-              <section class="mb-5 justify">
-                <p class="fs-5 mb-4">
+              <section class="mb-5 justify p-3">
+                <p class="fs-5 mb-4" style="color: #faacd9 !important">
                   Questo mi ha spinto a creare Music Bird, un sito che unisce la
                   mia passione per la musica e il desiderio di dare voce a
                   tutti; inoltre propone un ambiente interattivo, in cui gli
                   utenti possono commentare e condividere le proprie opinioni
                   sui vari articoli musicali.
                 </p>
-                <p class="fs-5 mb-4">
+                <p class="fs-5 mb-4" style="color: #faacd9 !important">
                   È un luogo che unisce diverse generazioni e offre informazioni
                   dettagliate sugli eventi musicali. Si impegna a promuovere la
                   libertà di espressione e accogliere le diverse voci e gusti
                   musicali.
                 </p>
-                <p class="fs-5 mb-4">
+                <p class="fs-5 mb-4" style="color: #faacd9 !important">
                   Con Music Bird, desidero creare un luogo virtuale in cui gli
                   amanti della musica possano trovare informazioni, condividere
                   opinioni e sentirsi liberi di esprimersi: una comunità che
@@ -114,7 +122,7 @@
             style="margin-bottom: 10px !important"
           >
             <a class="nav-link" aria-current="page" href="./documentazione.html"
-              >Documentazione</a
+              >DOCUMENTAZIONE</a
             >
           </p>
         </div>
